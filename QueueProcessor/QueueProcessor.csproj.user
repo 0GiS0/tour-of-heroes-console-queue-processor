@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <ExternalConsole>true</ExternalConsole>
+    <EnvironmentVariables>
+      <Variable name="AZURE_STORAGE" value="DefaultEndpointsProtocol=https;AccountName=picheroes;AccountKey=DVckbp9vzj2VMLXox+v/DnKNJprWnpB3Z1VE9HvFnvTg7jZ25pB1QmicvIRMYmmmeM3c8qL671hTBlV2FKhodg==;EndpointSuffix=core.windows.net" xmlns="" />
+    </EnvironmentVariables>
+  </PropertyGroup>
+</Project>
