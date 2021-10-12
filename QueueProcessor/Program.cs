@@ -19,7 +19,7 @@ namespace QueueProcessor
         {
             Console.WriteLine("Hello to the QueueProcessor!");            
 
-            var queueClient = new QueueClient(Environment.GetEnvironmentVariable("AZURE_STORAGE"), "alteregos");
+            var queueClient = new QueueClient(Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING"), "alteregos");
 
             queueClient.CreateIfNotExists();
 
@@ -38,7 +38,7 @@ namespace QueueProcessor
                     if (task.oldName != null)
                     {
                         //Create a Blob service client
-                        var blobClient = new BlobServiceClient(Environment.GetEnvironmentVariable("AZURE_STORAGE"));
+                        var blobClient = new BlobServiceClient(Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING"));
 
                         //Get container client
                         BlobContainerClient container = blobClient.GetBlobContainerClient("alteregos");

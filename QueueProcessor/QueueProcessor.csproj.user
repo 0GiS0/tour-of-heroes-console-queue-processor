@@ -7,4 +7,7 @@
       <Variable name="AZURE_STORAGE" value="DefaultEndpointsProtocol=https;AccountName=picheroes;AccountKey=DVckbp9vzj2VMLXox+v/DnKNJprWnpB3Z1VE9HvFnvTg7jZ25pB1QmicvIRMYmmmeM3c8qL671hTBlV2FKhodg==;EndpointSuffix=core.windows.net" xmlns="" />
     </EnvironmentVariables>
   </PropertyGroup>
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\giselat\Source\Repos\console-app-queue-processor\QueueProcessor\Properties\PublishProfiles\tour-of-heroes-webapi-background-process - Web Deploy.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
 </Project>
